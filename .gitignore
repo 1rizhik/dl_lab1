@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (если будут .pt/.pth)
+*.pt
+*.pth
+
+# Data (если большие файлы)
+*.csv
+*.npy
+!requirements.txt
+
+# Специфичное
+*.log
